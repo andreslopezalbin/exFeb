@@ -61,7 +61,6 @@
 			</os>
 		</activation>
 		<build>
-		<directory>C:\Users\andres\Desktop\MisMatematicas\target\Linux</directory>
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -69,15 +68,8 @@
 					<version>2.6</version>
 				</plugin>
 			</plugins>
+			<directory>C:\Users\andres\Desktop\MisMatematicas\target\Linux</directory>
 		</build>
-		
-		<distributionManagement>
-			<repository>
-				<id> idRepo</id>
-				<name> nombreRepo</name>
-				<url> C:\Users\andres\Desktop\MisMatematicas\target\Linux </url>
-			</repository>
-		</distributionManagement>
 		
 	</profile>
    </profiles>
